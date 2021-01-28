@@ -31,7 +31,7 @@ plugins {
 group = "ee.mkv.jhipster"
 version = "0.0.1-SNAPSHOT"
 
-description = ""
+description = "Random description"
 
 sourceCompatibility=1.8
 targetCompatibility=1.8

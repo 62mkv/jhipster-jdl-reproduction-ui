@@ -11,4 +11,5 @@ import org.springframework.stereotype.Repository;
 @SuppressWarnings("unused")
 @Repository
 public interface BusinessUnitConfigRepository extends JpaRepository<BusinessUnitConfig, Long> {
+        // some arbitrary changes
 }

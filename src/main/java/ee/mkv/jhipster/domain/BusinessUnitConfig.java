@@ -16,6 +16,7 @@ import java.io.Serializable;
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class BusinessUnitConfig implements Serializable {
 
+    // some arbitrary changes
     private static final long serialVersionUID = 1L;
 
     @Id

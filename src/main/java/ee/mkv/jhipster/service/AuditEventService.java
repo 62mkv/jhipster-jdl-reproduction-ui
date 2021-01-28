@@ -25,6 +25,7 @@ import java.util.Optional;
 @Transactional
 public class AuditEventService {
 
+    // some arbitrary changes
     private final Logger log = LoggerFactory.getLogger(AuditEventService.class);
 
     private final JHipsterProperties jHipsterProperties;
