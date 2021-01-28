@@ -1,0 +1,31 @@
+{
+  "name": "BusinessUnitConfig",
+  "fields": [
+    {
+      "fieldName": "unitName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "10",
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "defaultLabelQueue",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "1",
+      "fieldValidateRulesMaxlength": "16"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210128100432",
+  "entityTableName": "business_unit_config",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["reproductionUi"]
+}

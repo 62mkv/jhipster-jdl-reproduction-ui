@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "businessUnitConfig": {
+      "home": {
+        "title": "Business Unit Configs",
+        "createLabel": "Lisa uus Business Unit Config",
+        "createOrEditLabel": "Lisa või muuda Business Unit Config",
+        "notFound": "No Business Unit Configs found"
+      },
+      "created": "Uus Business Unit Config on loodud identifikaatoriga {{ param }}",
+      "updated": "Business Unit Config identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Business Unit Config identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Business Unit Config {{ id }}?"
+      },
+      "detail": {
+        "title": "Business Unit Config"
+      },
+      "unitName": "Unit Name",
+      "defaultLabelQueue": "Default Label Queue"
+    }
+  }
+}

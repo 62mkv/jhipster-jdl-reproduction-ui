@@ -1,0 +1,27 @@
+application {
+  config {
+    baseName reproductionUi
+    applicationType monolith
+    languages [en,de,et]
+    serverPort 8081
+    buildTool gradle
+    databaseType sql
+    prodDatabaseType postgresql
+    packageName ee.mkv.jhipster
+  }
+
+  entities *
+}
+
+@paginate(pagination)
+entity DepotCountryMapping {
+   depotName String required unique minlength(1) maxlength(10)
+   countryCode String required minlength(2) maxlength(2)
+}
+
+@paginate(pagination)
+entity BusinessUnitConfig {
+   unitName String required unique minlength(10) maxlength(32)
+   defaultLabelQueue String required minlength(1) maxlength(16)
+}
+

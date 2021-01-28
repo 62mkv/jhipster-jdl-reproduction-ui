@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "depotCountryMapping": {
+      "home": {
+        "title": "Depot Country Mappings",
+        "createLabel": "Depot Country Mapping erstellen",
+        "createOrEditLabel": "Depot Country Mapping erstellen oder bearbeiten",
+        "notFound": "No Depot Country Mappings found"
+      },
+      "created": "Depot Country Mapping erstellt mit ID {{ param }}",
+      "updated": "Depot Country Mapping aktualisiert mit ID {{ param }}",
+      "deleted": "Depot Country Mapping gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Depot Country Mapping {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Depot Country Mapping"
+      },
+      "depotName": "Depot Name",
+      "countryCode": "Country Code"
+    }
+  }
+}

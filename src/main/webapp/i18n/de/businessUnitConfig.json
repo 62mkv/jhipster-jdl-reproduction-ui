@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "businessUnitConfig": {
+      "home": {
+        "title": "Business Unit Configs",
+        "createLabel": "Business Unit Config erstellen",
+        "createOrEditLabel": "Business Unit Config erstellen oder bearbeiten",
+        "notFound": "No Business Unit Configs found"
+      },
+      "created": "Business Unit Config erstellt mit ID {{ param }}",
+      "updated": "Business Unit Config aktualisiert mit ID {{ param }}",
+      "deleted": "Business Unit Config gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Business Unit Config {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Business Unit Config"
+      },
+      "unitName": "Unit Name",
+      "defaultLabelQueue": "Default Label Queue"
+    }
+  }
+}

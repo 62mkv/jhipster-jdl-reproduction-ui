@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "depotCountryMapping": {
+      "home": {
+        "title": "Depot Country Mappings",
+        "createLabel": "Lisa uus Depot Country Mapping",
+        "createOrEditLabel": "Lisa või muuda Depot Country Mapping",
+        "notFound": "No Depot Country Mappings found"
+      },
+      "created": "Uus Depot Country Mapping on loodud identifikaatoriga {{ param }}",
+      "updated": "Depot Country Mapping identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Depot Country Mapping identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Depot Country Mapping {{ id }}?"
+      },
+      "detail": {
+        "title": "Depot Country Mapping"
+      },
+      "depotName": "Depot Name",
+      "countryCode": "Country Code"
+    }
+  }
+}
