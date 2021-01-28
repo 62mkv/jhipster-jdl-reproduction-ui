@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "randomNewEntity": {
+      "home": {
+        "title": "Random New Entities",
+        "createLabel": "Random New Entity erstellen",
+        "createOrEditLabel": "Random New Entity erstellen oder bearbeiten",
+        "notFound": "No Random New Entities found"
+      },
+      "created": "Random New Entity erstellt mit ID {{ param }}",
+      "updated": "Random New Entity aktualisiert mit ID {{ param }}",
+      "deleted": "Random New Entity gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Random New Entity {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Random New Entity"
+      },
+      "entityName": "Entity Name",
+      "someValue": "Some Value"
+    }
+  }
+}

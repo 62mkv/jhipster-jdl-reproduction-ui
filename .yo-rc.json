@@ -39,5 +39,5 @@
     "otherModules": [],
     "blueprints": []
   },
-  "entities": ["DepotCountryMapping", "BusinessUnitConfig"]
+  "entities": ["DepotCountryMapping", "BusinessUnitConfig", "RandomNewEntity"]
 }
