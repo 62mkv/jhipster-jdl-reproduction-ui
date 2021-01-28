@@ -50,6 +50,7 @@ public class CacheConfiguration {
             createCache(cm, ee.mkv.jhipster.domain.User.class.getName() + ".authorities");
             createCache(cm, ee.mkv.jhipster.domain.DepotCountryMapping.class.getName());
             createCache(cm, ee.mkv.jhipster.domain.BusinessUnitConfig.class.getName());
+            createCache(cm, ee.mkv.jhipster.domain.RandomNewEntity.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

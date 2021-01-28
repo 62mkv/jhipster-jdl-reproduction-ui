@@ -9,12 +9,12 @@ import javax.validation.constraints.*;
 import java.io.Serializable;
 
 /**
- * A BusinessUnitConfig.
+ * A RandomNewEntity.
  */
 @Entity
-@Table(name = "business_unit_config")
+@Table(name = "random_new_entity")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
-public class BusinessUnitConfig implements Serializable {
+public class RandomNewEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -25,13 +25,13 @@ public class BusinessUnitConfig implements Serializable {
 
     @NotNull
     @Size(min = 10, max = 32)
-    @Column(name = "unit_name", length = 32, nullable = false, unique = true)
-    private String unitName;
+    @Column(name = "entity_name", length = 32, nullable = false, unique = true)
+    private String entityName;
 
     @NotNull
     @Size(min = 1, max = 16)
-    @Column(name = "default_label_queue", length = 16, nullable = false)
-    private String defaultLabelQueue;
+    @Column(name = "some_value", length = 16, nullable = false)
+    private String someValue;
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public Long getId() {
@@ -42,30 +42,30 @@ public class BusinessUnitConfig implements Serializable {
         this.id = id;
     }
 
-    public String getUnitName() {
-        return unitName;
+    public String getEntityName() {
+        return entityName;
     }
 
-    public BusinessUnitConfig unitName(String unitName) {
-        this.unitName = unitName;
+    public RandomNewEntity entityName(String entityName) {
+        this.entityName = entityName;
         return this;
     }
 
-    public void setUnitName(String unitName) {
-        this.unitName = unitName;
+    public void setEntityName(String entityName) {
+        this.entityName = entityName;
     }
 
-    public String getDefaultLabelQueue() {
-        return defaultLabelQueue;
+    public String getSomeValue() {
+        return someValue;
     }
 
-    public BusinessUnitConfig defaultLabelQueue(String defaultLabelQueue) {
-        this.defaultLabelQueue = defaultLabelQueue;
+    public RandomNewEntity someValue(String someValue) {
+        this.someValue = someValue;
         return this;
     }
 
-    public void setDefaultLabelQueue(String defaultLabelQueue) {
-        this.defaultLabelQueue = defaultLabelQueue;
+    public void setSomeValue(String someValue) {
+        this.someValue = someValue;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
 
@@ -74,10 +74,10 @@ public class BusinessUnitConfig implements Serializable {
         if (this == o) {
             return true;
         }
-        if (!(o instanceof BusinessUnitConfig)) {
+        if (!(o instanceof RandomNewEntity)) {
             return false;
         }
-        return id != null && id.equals(((BusinessUnitConfig) o).id);
+        return id != null && id.equals(((RandomNewEntity) o).id);
     }
 
     @Override
@@ -88,10 +88,10 @@ public class BusinessUnitConfig implements Serializable {
     // prettier-ignore
     @Override
     public String toString() {
-        return "BusinessUnitConfig{" +
+        return "RandomNewEntity{" +
             "id=" + getId() +
-            ", unitName='" + getUnitName() + "'" +
-            ", defaultLabelQueue='" + getDefaultLabelQueue() + "'" +
+            ", entityName='" + getEntityName() + "'" +
+            ", someValue='" + getSomeValue() + "'" +
             "}";
     }
 }

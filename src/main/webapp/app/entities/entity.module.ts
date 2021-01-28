@@ -14,6 +14,10 @@ import { RouterModule } from '@angular/router';
         loadChildren: () =>
           import('./business-unit-config/business-unit-config.module').then(m => m.ReproductionUiBusinessUnitConfigModule),
       },
+      {
+        path: 'random-new-entity',
+        loadChildren: () => import('./random-new-entity/random-new-entity.module').then(m => m.ReproductionUiRandomNewEntityModule),
+      },
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ]),
   ],

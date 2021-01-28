@@ -1,0 +1,23 @@
+{
+  "reproductionUiApp": {
+    "randomNewEntity": {
+      "home": {
+        "title": "Random New Entities",
+        "createLabel": "Lisa uus Random New Entity",
+        "createOrEditLabel": "Lisa või muuda Random New Entity",
+        "notFound": "No Random New Entities found"
+      },
+      "created": "Uus Random New Entity on loodud identifikaatoriga {{ param }}",
+      "updated": "Random New Entity identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Random New Entity identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Random New Entity {{ id }}?"
+      },
+      "detail": {
+        "title": "Random New Entity"
+      },
+      "entityName": "Entity Name",
+      "someValue": "Some Value"
+    }
+  }
+}
