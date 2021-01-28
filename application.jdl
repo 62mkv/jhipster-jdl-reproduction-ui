@@ -25,3 +25,9 @@ entity BusinessUnitConfig {
    defaultLabelQueue String required minlength(1) maxlength(16)
 }
 
+@paginate(pagination)
+entity RandomNewEntity {
+   entityName String required unique minlength(10) maxlength(32)
+   someValue String required minlength(1) maxlength(16)
+}
+
